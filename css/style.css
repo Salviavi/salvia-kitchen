@@ -1,0 +1,253 @@
+/*
+
+--- 1 typography
+
+
+
+
+- Line heights
+Default: 1
+1.1, 1.7
+
+- FONT SIZE (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 /98
+
+
+
+--- 2 colors
+
+Primary: #86aa66
+Secondary: #e4f8ba
+Lighter: 	#feffe9
+Darkest: #546a40
+Contrast: #d68b3d
+
+Primary Button: #76945a #657f4d
+Secondary Button: #fff #cbe5b3
+
+Greys: #555
+
+--- 5 SHADOWS
+
+--- 6 BORDER RADIUS
+
+--- 7 WHITESPACE
+
+- SPACING (px)
+2 / 4 /8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+/* ------- REUSABLE ------ */
+.button:link,
+.button:visited {
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 1.2rem 3.2rem;
+  border-radius: 10px;
+  transition: background-color 0.4s;
+}
+
+.button-primary:link,
+.button-primary:visited {
+  background-color: #76945a;
+  color: #fff;
+}
+
+.button-primary:hover,
+.button-primary:active {
+  background-color: #657f4d;
+  color: #fff;
+}
+
+.button-secondary:link,
+.button-secondary:visited {
+  background-color: white;
+  color: #555;
+}
+
+.button-secondary:hover,
+.button-secondary:active {
+  background-color: #fff;
+  box-shadow: inset 0 0 0 2px #cbe5b3;
+  color: #555;
+}
+
+/* HELPER CLASS */
+.margin-right {
+  margin-right: 1.6rem !important;
+}
+
+/* ------- REUSABLE END ------ */
+
+/* ------- NAVBAR ------ */
+
+.logo {
+  height: 8rem;
+}
+
+.main-nav-list {
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #feffe9;
+
+  /* sticking the header */
+  height: 9.8rem;
+  padding: 0 3.2rem;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.navbar-link:link,
+.navbar-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 700;
+  font-size: 1.8rem;
+  transition: all 0.5s;
+}
+
+.navbar-link:hover,
+.navbar-link:active {
+  color: #d68b3d;
+}
+
+.navbar-link.navbar-cta:link,
+.navbar-link.navbar-cta:visited {
+  padding: 1.2rem 3.2rem;
+  border-radius: 10px;
+  background-color: #76945a;
+  color: #fff;
+  padding: 1.2rem 2.4rem;
+}
+
+.navbar-link.navbar-cta:hover,
+.navbar-link.navbar-cta:active {
+  background-color: #657f4d;
+}
+
+/* ------- NAVBAR END ------ */
+
+/* ------- HERO ------ */
+
+.section-hero {
+  background-color: #feffe9;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 135rem;
+  margin: 0 auto;
+  align-items: center;
+  gap: 8rem;
+  padding: 0 3.2rem;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+/* text */
+
+.hero-text {
+  padding-top: 2.4rem;
+}
+
+.h1 {
+  font-size: 5.2rem;
+  line-height: 1.1;
+  letter-spacing: -0.5px;
+  color: #333;
+  font-weight: 800;
+  margin-bottom: 2.4rem;
+}
+
+.hero-desc {
+  font-size: 2rem;
+  line-height: 1.7;
+  letter-spacing: -0.2px;
+  margin-bottom: 6.4rem;
+}
+
+/* customer satisfaction */
+
+.satisfied-customer {
+  margin-top: 8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.customer-icons {
+  display: flex;
+}
+
+.customer-icons img {
+  width: 4.4rem;
+  height: rem;
+  border-radius: 50%;
+  margin-right: -1.2rem;
+  border: 3px solid #feffe9;
+}
+
+.customer-icons img:last-child {
+  margin: 0;
+}
+
+.satisfied-text {
+  font-size: 1.6rem;
+  color: #000;
+}
+
+.satisfied-text span {
+  color: #d68b3d;
+  font-weight: 700;
+}
+
+/* ------- HERO END ------ */
+
+/* ------- GETIING STARTED ------ */
+
+.section-getting-started {
+  padding: 9.6rem 0;
+  background-color: #76945a;
+}
+
+.container {
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+/* ------- GETIING STARTED END ------ */
