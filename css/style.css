@@ -1,103 +1,3 @@
-/*
-
---- 1 typography
-
-
-
-
-- Line heights
-Default: 1
-1.1, 1.7
-
-- FONT SIZE (px)
-10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 /98
-
-
-
---- 2 colors
-
-Primary: #86aa66
-Secondary: #e4f8ba
-Lighter: 	#feffe9
-Darkest: #546a40
-Contrast: #d68b3d
-
-Primary Button: #76945a #657f4d
-Secondary Button: #fff #cbe5b3
-
-Greys: #555
-
---- 5 SHADOWS
-
---- 6 BORDER RADIUS
-
---- 7 WHITESPACE
-
-- SPACING (px)
-2 / 4 /8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-
-*/
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-family: "Mulish", sans-serif;
-  line-height: 1;
-  font-weight: 400;
-  color: #555;
-}
-
-/* ------- REUSABLE ------ */
-.button:link,
-.button:visited {
-  font-size: 2.4rem;
-  font-weight: 600;
-  text-decoration: none;
-  padding: 1.2rem 3.2rem;
-  border-radius: 10px;
-  transition: background-color 0.4s;
-}
-
-.button-primary:link,
-.button-primary:visited {
-  background-color: #76945a;
-  color: #fff;
-}
-
-.button-primary:hover,
-.button-primary:active {
-  background-color: #657f4d;
-  color: #fff;
-}
-
-.button-secondary:link,
-.button-secondary:visited {
-  background-color: white;
-  color: #555;
-}
-
-.button-secondary:hover,
-.button-secondary:active {
-  background-color: #fff;
-  box-shadow: inset 0 0 0 2px #cbe5b3;
-  color: #555;
-}
-
-/* HELPER CLASS */
-.margin-right {
-  margin-right: 1.6rem !important;
-}
-
-/* ------- REUSABLE END ------ */
-
 /* ------- NAVBAR ------ */
 
 .logo {
@@ -137,7 +37,7 @@ body {
 
 .navbar-link:hover,
 .navbar-link:active {
-  color: #d68b3d;
+  color: #ab6f31;
 }
 
 .navbar-link.navbar-cta:link,
@@ -187,7 +87,7 @@ body {
   font-size: 5.2rem;
   line-height: 1.1;
   letter-spacing: -0.5px;
-  color: #333;
+  color: #324026;
   font-weight: 800;
   margin-bottom: 2.4rem;
 }
@@ -197,6 +97,7 @@ body {
   line-height: 1.7;
   letter-spacing: -0.2px;
   margin-bottom: 6.4rem;
+  font-weight: 600;
 }
 
 /* customer satisfaction */
@@ -230,24 +131,188 @@ body {
 }
 
 .satisfied-text span {
-  color: #d68b3d;
+  color: #ab6f31;
   font-weight: 700;
 }
 
 /* ------- HERO END ------ */
 
-/* ------- GETIING STARTED ------ */
+/* ------- FEATURED ------ */
+
+.section-featured {
+  padding: 4.8rem 0 2.4rem 0;
+}
+
+.heading-featured {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #546a40;
+  text-transform: uppercase;
+  text-spacing: 0.8px;
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logos img {
+  height: 15rem;
+}
+
+/* ------- FEATURED END ------ */
 
 .section-getting-started {
   padding: 9.6rem 0;
-  background-color: #76945a;
+  gap: 9rem;
 }
 
-.container {
-  /* 1140px */
-  max-width: 120rem;
-  padding: 0 3.2rem;
-  margin: 0 auto;
+.step-img {
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  position: relative;
+}
+
+.step-number {
+  font-size: 8.6rem;
+  color: #bbb;
+  font-weight: 700;
+  margin-bottom: 1.4rem;
+}
+
+.step-background {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40rem;
+  height: 30rem;
+  border-radius: 50%;
+  background-color: #e4f8ba;
+  transform: translate(-50%, -50%);
+  z-index: -1;
 }
 
 /* ------- GETIING STARTED END ------ */
+
+/* ------- OUR MENU ------ */
+
+.section-menu {
+  padding: 9.6rem 0;
+}
+
+.menu-img {
+  width: 100%;
+}
+
+.menu {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 5%;
+  overflow: hidden;
+}
+
+.menu:hover {
+  transform: translateY(-0.8rem);
+  transition: all 0.4s;
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.15);
+}
+
+.menu-content {
+  padding: 3.2rem;
+}
+
+.menu-tags {
+  margin-bottom: 1.2rem;
+  display: flex;
+  gap: 6px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background-color: #51cf66;
+  color: #333;
+  border-radius: 7px;
+  font-weight: 700;
+}
+
+.tag--flexitarian {
+  background-color: #c0eb75;
+}
+
+.tag--mediterranean {
+  background-color: #ffe066;
+}
+
+.tag--vegetarian {
+  background-color: #74b816;
+}
+
+.tag--vegan {
+  background-color: #51cf66;
+}
+
+.menu-name {
+  font-size: 2.4rem;
+  color: #324026;
+  font-weight: 700;
+  margin-bottom: 3.2rem;
+}
+.menu-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.menu-attribute {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.menu-icon {
+  font-size: 2.4rem;
+  color: #ab6f31;
+}
+
+.diets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.diet-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.diet-icon {
+  font-size: 2.4rem;
+  color: #76945a;
+}
+
+.diet-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.diets > h3 {
+  margin-bottom: 2.4rem;
+}
+.all-menus {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+/* ------- OUR MENU END ------ */

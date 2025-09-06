@@ -37,17 +37,17 @@ Approve Your Plan: Once a week, check your meal plan and modify it however you l
 
 Right food, right time: Our top chefs prepare your chosen meals daily and deliver them at the time that suits you best. Change your delivery slot anytime!
 
-### Salvia Kitchen works with any diet
+### No matter your diet, Salvia Kitchen works for you
 
 Vegetarian
 Vegan
-Pescatarian
+Flexitarian
+Mediterranean
 Gluten-free
 Lactose-free
 Keto
 Paleo
-Low FODMAP
-Kid-friendly
+Balanced
 
 ### Sample meals
 
@@ -55,7 +55,7 @@ Kid-friendly
 
 Meal 1: Pecel
 
-- Category: Vegetarian
+- Category: Vegetarian, Vegan
 - Calories: 600 kcal
 - Proteins: 20gr
 - Average rating: 4.8
@@ -63,7 +63,7 @@ Meal 1: Pecel
 
 Meal 2: Spaghetti Carbonara
 
-- Category: Paleo
+- Category: Flexitarian, Mediterranean
 - Calories: 700 kcal
 - Proteins: 30gr
 - Average rating: 4.9
@@ -101,8 +101,8 @@ Complete: $200 per month
 
 Inexpensive, healthy and great-tasting meals, without even having to order manually! It feels truly magical. (Budi)
 The AI algorithm is crazy good, it chooses the right meals for me every time. It's amazing not to worry about food anymore! (Hengky)
-Omnifood is a life saver! I just started a company, so there's no time for cooking. I couldn't live without my daily meals now! (Lina)
-I got Omnifood for the whole family, and it frees up so much time! Plus, everything is organic and vegan and without plastic. (Romlah)
+Salvia Kitchen is a life saver! I just started a company, so there's no time for cooking. I couldn't live without my daily meals now! (Lina)
+I got Salvia Kitchen for the whole family, and it frees up so much time! Plus, everything is organic and vegan and without plastic. (Romlah)
 
 ### Section with logos of featured publications [see images]
 
@@ -120,7 +120,7 @@ Create account
 Sign in
 iOS app
 Android app
-About Omnifood
+About Salvia Kitchen
 For Business
 Cooking partners
 Careers
