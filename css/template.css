@@ -28,6 +28,7 @@ Secondary Button: #fff #cbe5b3
 TEXT: #324026
 
 Greys: #555
+#6f6f6f (lightest contrast grey on #feffe9 )
 
 --- 5 SHADOWS
 
@@ -89,7 +90,7 @@ body {
 .sub-heading {
   display: block;
   font-size: 1.6rem;
-  font-weight: 700;
+  font-weight: 800;
   color: #ab6f31;
   text-transform: uppercase;
   margin-bottom: 1.4rem;
