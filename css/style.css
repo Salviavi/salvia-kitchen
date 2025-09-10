@@ -288,25 +288,6 @@
   justify-content: center;
 }
 
-.diet-list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.diet-icon {
-  font-size: 2.4rem;
-  color: #76945a;
-}
-
-.diet-item {
-  font-size: 1.8rem;
-  display: flex;
-  align-items: center;
-  gap: 1.6rem;
-}
-
 .diets > h3 {
   margin-bottom: 2.4rem;
 }
@@ -373,3 +354,114 @@
   overflow: hidden;
 }
 /* ------- TESTIMONIALS END ------ */
+
+/* ------- PRICING ------ */
+.section-pricing {
+  padding: 9.6rem;
+}
+
+.pricing-plan {
+  border-radius: 5%;
+  padding: 2.4rem;
+}
+
+.pricing-plan--complete {
+  background-color: #feffe9;
+  border: 2px solid #ab6f31;
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing-plan--complete::after {
+  content: "Best value";
+  position: absolute;
+  top: 4%;
+  right: -10%;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 800;
+  background-color: #eec25c;
+  color: #333;
+  padding: 0.8rem 3.2rem;
+  transform: rotate(45deg);
+}
+
+.pricing-plan--less {
+  border: 2px solid #cbe5b3;
+}
+
+.pricing-plan ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 1.6rem;
+}
+
+.plan-header {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
+.plan-name {
+  color: #ab6f31;
+  font-size: 2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 2.4rem;
+}
+
+.plan-price {
+  font-size: 6.2rem;
+  font-weight: 600;
+  color: #324026;
+  margin-bottom: 1.6rem;
+}
+
+.plan-price span {
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+
+.plan-text {
+  font-size: 1.4rem;
+  line-height: 1.8;
+  color: #6f6f6f;
+}
+
+.plan-sign-up {
+  margin-top: 6.4rem;
+  margin-bottom: 2.4rem;
+  text-align: center;
+}
+
+.plan-details {
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  text-align: center;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-icon {
+  color: #76945a;
+  font-size: 3.6rem;
+  margin-bottom: 3.6rem;
+  background-color: #e4f8ba;
+  padding: 1.2rem;
+  border-radius: 50%;
+}
+.feature-title {
+  font-size: 2rem;
+  color: #324026;
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+/* ------- PRICING END------ */

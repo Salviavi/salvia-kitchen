@@ -18,8 +18,8 @@ A smarter way to eat: 365 days of personalized, nutritious meals delivered, the 
 
 ### Salvia Kitchen features
 
-Never cook again!: Enjoy chef-prepared meals 365 days a year. Yes, even on holidays.
-Fresh & Organic: Our chefs source only the best local, seasonal, and organic ingredients.
+Goodbye cooking stress!: Savor chef-made meals daily, even on holidays.
+Naturally fresh: Carefully crafted with seasonal, organic ingredients.
 Zero Waste, Zero Guilt: Meals arrive in reusable containers. Better for you, better for the planet.
 Total Flexibility: Heading out of town? Pause anytime and get refunded for unused days.
 
@@ -82,13 +82,21 @@ Prices include all applicable taxes. Users can cancel at any time.
 Starter: $120 per month
 
 - 1 meal per day
-- Order times are limited to one (afternoon)
+- Delivery limited to afternoon only
 - Delivery is free
 
-Complete: $200 per month
+Convenient: $150 per month
+
+- 1 meal per day
+- Delivery available morning, afternoon, or night
+- 1 nutritious snack based on chosen diet
+- Delivery is free
+
+Complete: $180 per month
 
 - 2 meal per day
-- Order times can choose between morning/afternoon/night
+- Delivery available morning, afternoon, or night
+- 1 nutritious snack based on chosen diet
 - Delivery is free
 
 ### Photo gallery
