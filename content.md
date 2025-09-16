@@ -73,7 +73,7 @@ Meal 2: Spaghetti Carbonara
 
 [Create simple form for users to sign up]
 
-Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause anytime. And the first meal is on us!
+Healthy, tasty, and convenient meals await. Begin your journey to better eating today. Cancel or pause anytime, and enjoy your first meal on us!
 
 ### We have 2 pricing plans
 

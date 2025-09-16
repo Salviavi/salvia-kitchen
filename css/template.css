@@ -19,18 +19,27 @@ Default: 1
 
 Primary: #86aa66
 Secondary: #e4f8ba
-Lighter: 	#feffe9
+Lighter: 	#9ebb85 #feffe9
 Darkest: #546a40
 Contrast: #ab6f31
 
 Primary Button: #76945a #657f4d
 Secondary Button: #fff #cbe5b3
+Form Button: #364429
 TEXT: #324026
+
+
 
 Greys: #555
 #6f6f6f (lightest contrast grey on #feffe9 )
 
+CTA Text
+Heading: #364429
+Content: #28331f
+
 --- 5 SHADOWS
+
+box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
 
 --- 6 BORDER RADIUS
 
@@ -97,6 +106,7 @@ body {
   letter-spacing: 0.8px;
 }
 
+.button,
 .button:link,
 .button:visited {
   font-size: 2.4rem;
@@ -105,6 +115,10 @@ body {
   padding: 1.2rem 3.2rem;
   border-radius: 10px;
   transition: all 0.25s;
+
+  /* Only for button, not link*/
+  border: none;
+  cursor: pointer;
 }
 
 .button-primary:link,
@@ -132,6 +146,19 @@ body {
   color: #555;
 }
 
+.button--form {
+  background-color: #364429;
+  color: #feffe9;
+  align-self: end;
+  padding: 1.2rem;
+  font-size: 2rem;
+}
+
+.button--form:hover {
+  background-color: #feffe9;
+  color: #364429;
+}
+
 .link:link,
 .link:visited {
   display: inline-block;
@@ -147,6 +174,16 @@ body {
   color: #657f4d;
   border-bottom: 1px solid transparent;
 }
+
+/* -- Global reset for focus (Tab) -- */
+
+*:focus {
+  outline: none;
+  /* outline: 4px solid #86aa66; */
+  /* outline-offset: 6px; */
+  box-shadow: 0 0 0 0.8rem rgba(134, 170, 102, 0.5);
+}
+/* -- Global reset END -- */
 
 .list {
   list-style: none;
