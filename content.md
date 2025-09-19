@@ -116,7 +116,7 @@ Complete: $180 per month
 
 ### Contact information
 
-Address: Palmerah St., Ground Floor, Jakarta, 65144
+Address: Kebon Jeruk St., Ground Floor, Jakarta, 65144
 Phone: 021-444-XXX
 Email: salvia-kitchen@meal.com
 

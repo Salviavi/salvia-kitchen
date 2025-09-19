@@ -28,6 +28,9 @@ Secondary Button: #fff #cbe5b3
 Form Button: #364429
 TEXT: #324026
 
+Footer: #5e7747
+hover footer: #435533
+
 
 
 Greys: #555
@@ -233,6 +236,10 @@ body {
 
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .grid--center-v {
