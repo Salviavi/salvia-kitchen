@@ -54,10 +54,23 @@
   background-color: #657f4d;
 }
 
-/* ------- NAVBAR END ------ */
+/* MOBILE */
+.nav-mobile-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
 
+.nav-mobile-icon {
+  font-size: 4.8rem;
+  color: #435533;
+}
+
+.nav-mobile-icon[name="close-circle-outline"] {
+  display: none;
+} /* ------- NAVBAR END ------ */
 /* ------- HERO ------ */
-
 .section-hero {
   background-color: #feffe9;
   padding: 4.8rem 0 9.6rem 0;

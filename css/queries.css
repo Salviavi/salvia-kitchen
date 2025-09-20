@@ -68,11 +68,15 @@ instead, 1 rem = 1em = 16px
   }
 
   .hero-img {
-    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 
-  .hero-text,
-  .hero-img {
+  .hero-img img {
+    width: 70%;
+  }
+
+  .hero-text {
     text-align: center;
   }
 
@@ -80,3 +84,72 @@ instead, 1 rem = 1em = 16px
     justify-content: center;
     margin-top: 4.8rem;
   }
+
+  .menu-content {
+    padding: 2rem;
+  }
+
+  .section-menu .grid {
+    gap: 2.4rem;
+  }
+
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .list-item {
+    line-height: 1.7;
+  }
+
+  .plan-sign-up .button {
+    font-size: 1.8rem;
+  }
+
+  .plan-sign-up {
+    margin-bottom: 2rem;
+  }
+
+  .cta {
+    grid-template-columns: 2fr 3fr;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+
+  .button--form {
+    margin-top: 1.5rem;
+  }
+
+  /* MOBILE NAVIGATION */
+  .nav-mobile-button {
+    display: block;
+  }
+
+  .navbar {
+    background-color: rgba(255, 255, 255, 0.822);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .navbar-link:link,
+  .navbar-link:visited {
+    font-size: 3rem;
+    font-weight: 800;
+  }
+}
