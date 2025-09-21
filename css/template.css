@@ -65,6 +65,9 @@ box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
 
 html {
   font-size: 62.5%;
+
+  /* for mobile navbar */
+  overflow-x: hidden;
 }
 
 body {
@@ -72,6 +75,9 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+
+  /* for mobile navbar */
+  overflow-x: hidden;
 }
 
 /* ------- REUSABLE ------ */
