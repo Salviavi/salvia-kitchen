@@ -181,7 +181,7 @@ instead, 1 rem = 1em = 16px
 }
 /* ------- (Tablets) END------ */
 
-/* ------- BELOW 752px (Small Tablets - Phone) ------ */
+/* ------- BELOW 752px (Small Tablets) ------ */
 
 @media (max-width: 47em) {
   .grid--3-cols,
@@ -207,4 +207,71 @@ instead, 1 rem = 1em = 16px
     column-gap: 3.2rem;
     row-gap: 9.6rem;
   }
+
+  .grid--footer {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .logo-col,
+  .address-col {
+    grid-column: span 3;
+  }
+
+  .nav-col {
+    grid-row: 1;
+    grid-column: span 2;
+    margin-bottom: 4.8rem;
+  }
+
+  .logo-col {
+    align-items: center;
+  }
 }
+/* ------- (Small Tablets) END------ */
+
+/* ------- BELOW 576px (Tiny Tablets & Phone) ------ */
+@media (max-width: 36em) {
+  .grid {
+    row-gap: 4.8rem;
+  }
+
+  .grid--2-cols,
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .h1 {
+    font-size: 3.6rem;
+  }
+
+  .h2 {
+    font-size: 3.2rem;
+  }
+
+  .hero-container {
+    padding: 0 3.2rem;
+  }
+
+  .hero-text .button-secondary {
+    display: block;
+    margin: 3.2rem auto;
+    margin-top: 3.2rem;
+    width: 61%;
+  }
+
+  .satisfied-customer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-img img {
+    width: 100%;
+  }
+
+  .logos img {
+    height: 10rem;
+  }
+}
+
+/* ------- (Tiny Tablets) END------ */
