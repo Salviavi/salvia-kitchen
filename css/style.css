@@ -1,7 +1,7 @@
 /* ------- NAVBAR ------ */
 
 .logo {
-  height: 8rem;
+  height: 6.8rem;
 }
 
 .main-nav-list {
@@ -53,6 +53,21 @@
 .navbar-link.navbar-cta:hover,
 .navbar-link.navbar-cta:active {
   background-color: #657f4d;
+}
+
+/* STICKY NAVIGATION */
+
+.sticky {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.97);
+  width: 100%;
+  z-index: 10;
+  height: 7.4rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.04);
 }
 
 /* MOBILE */

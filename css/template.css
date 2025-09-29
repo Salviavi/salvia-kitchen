@@ -68,6 +68,8 @@ html {
 
   /* for mobile navbar */
   overflow-x: hidden;
+
+  /* might not work on older browsers*/
   scroll-behavior: smooth;
 }
 
